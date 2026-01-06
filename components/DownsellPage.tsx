@@ -1,6 +1,7 @@
 import React from 'react';
 import { CheckCircle2, ArrowDown, Lock } from 'lucide-react';
 import { Button } from './Button';
+import { UrgencyBanner } from './UrgencyBanner';
 import { GuaranteeBadge } from './GuaranteeBadge';
 import { OFFER_DETAILS, FEATURES } from '../constants';
 
@@ -11,7 +12,8 @@ export const DownsellPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans pb-12">
-      
+      <UrgencyBanner />
+
       <main className="container mx-auto px-4 pt-8 md:pt-12 max-w-4xl">
         {/* Header Section */}
         <div className="text-center mb-8 md:mb-12 space-y-4">
