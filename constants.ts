@@ -3,7 +3,7 @@ import { OfferDetails, ProductFeature } from './types';
 export const OFFER_DETAILS: OfferDetails = {
   originalPrice: 97,
   discountedPrice: 47,
-  checkoutUrl: "https://pay.kirvano.com/ae51031d-9d19-4090-befe-4f716290868d",
+  checkoutUrl: "https://go.perfectpay.com.br/PPU38CQ5M0U",
   imageUrl: "https://i.imgur.com/9PgdLRZ.png"
 };
 
